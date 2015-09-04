@@ -24,3 +24,5 @@ get('about', function(){
 get('reportings', function(){
 	return 'Reporting feature';
 });
+
+Routes::resource('reports', 'ReportsController');
