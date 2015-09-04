@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-get('about', function(){
-
+get('abuot', function(){
+	return 'About page';
 });
 
 // Whatever logic to ass reporting
