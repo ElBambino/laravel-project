@@ -20,3 +20,7 @@ get('abuot', function(){
 });
 
 // Whatever logic to ass reporting
+
+get('reporting', function(){
+	return 'Reporting feature';
+});
